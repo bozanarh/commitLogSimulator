@@ -1,0 +1,4 @@
+# two writers for CID=A
+A=2
+# three writers tof CID=B
+B=3

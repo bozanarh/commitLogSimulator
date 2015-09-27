@@ -9,7 +9,7 @@ ASSUMPTIONS:
 - Assumed random arrival of log commits. (Assignement did not specify arrival rate, so I have chosen simplest solution)
 - Writers are writing log to the stdout whcih is piped into readers. Requirements did not specify I have to use file.
 - Assignment required reader and writer to be provided as separate jar files, so I did not reuse much of code that is shared. I could move it potentially into a common package, but it might be too heavy for this small example.
-- Config file is provided as input argument to both reader and writer
+- Config file is provided as input argument to both reader and writer. You need to provide absolute path of the file.
 
 
 TODO:
